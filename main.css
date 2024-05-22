@@ -1,0 +1,8 @@
+body{
+    font-family: "Josefin Slab", serif;
+}
+
+.custom-carousel-image{
+    height: 37.5em;
+    object-fit: cover;
+}

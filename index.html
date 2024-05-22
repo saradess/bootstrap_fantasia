@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fantasia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Pacifico&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top pt-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Fantasia</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu">
+                <ul class="nav nac-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#" class="nav-link">
+                            <i class="bi bi-house-door-fill"></i>
+                            Sobre
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#" class="nav-link">
+                            <i class="bi bi-eyedropper"></i></i>
+                            Notas
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#" class="nav-link">
+                            <i class="bi bi-cart-fill"></i>
+                            Loja
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+<div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+    <section id="sobre-a-loja">
+        <div class="carousel slide carousel-fade" data-bs-ride="carousel" id="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="./media/slides/slide_fairy.jpg" class="w-100 custom-carousel-image">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./media/slides/slide_mermaid.jpg" class="w-100 custom-carousel-image">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./media/slides/slide_princess.jpg" class="w-100 custom-carousel-image">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+        <div class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="./media/sobre.jpg" class="d-block w-100 rounded" alt="foto do interior da loja de perfumes Fantasia">
+                    </div>
+                    <div class="col-md-7 mt-3 mt-md-0">
+                        <h2 class="section-title">Sobre <span class="text-colored">a loja</span> </h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quas blanditiis pariatur, culpa provident qui adipisci alias accusantium ab dicta consectetur obcaecati impedit, veritatis velit? Aliquid totam natus neque ullam.
+                        </p>
+                        <h3 class="section-title">Sobre <span class="text-colored">parcerias</span> </h2>
+                        <p>
+                            Requisitos:
+                        </p>
+                        <ul>
+                            <li>item1</li>
+                            <li>item2</li>
+                            <li>item3</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="notas" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="text-center section-title">Aromas que <span class=text-colored>inspiram</span> imaginação</h2>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./media/notas/notas_fairy.jpg" class="d-clock w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">Fairy</h3>
+                        <p>
+                            <ul>
+                                <li>
+                                    <i class="bi bi-brightness-high-fill">Saída</i>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </li>
+                                <li>
+                                    <i class="bi bi-suit-heart-fill">Coração</i>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </li>
+                                <li>
+                                    <i class="bi bi-brightness-alt-high-fill">Fundo</i>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./media/notas/notas_mermaid.jpg" class="d-clock w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">Mermaid</h3>
+                        <p>
+                            <ul>
+                                <li>
+                                    <i class="bi bi-brightness-high-fill">Saída</i>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </li>
+                                <li>
+                                    <i class="bi bi-suit-heart-fill">Coração</i>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </li>
+                                <li>
+                                    <i class="bi bi-brightness-alt-high-fill">Fundo</i>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./media/notas/notas_princess.jpg" class="d-clock w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">Princess</h3>
+                        <p>
+                            <ul>
+                                <li>
+                                    <i class="bi bi-brightness-high-fill">Saída</i>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </li>
+                                <li>
+                                    <i class="bi bi-suit-heart-fill">Coração</i>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </li>
+                                <li>
+                                    <i class="bi bi-brightness-alt-high-fill">Fundo</i>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="pt-5 pb-5" id="loja">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center mb-5">Escolha sua <span class="text-colored">fragancia</span></h2>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-loja">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#perfumes" class="fw-bold text-start nav-link text-colored active">Perfumes</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#hidratantes" class="fw-bold text-start nav-link text-colored">Hidratantes</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bath-bombs" class="fw-bold text-start nav-link text-colored">Bath-bombs</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="perfumes">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./media/produtos/fairy_parfum.jpg" alt="perfume Fairy">
+                                        <h5 class="fw-bold mt-2">Perfume coleção Fairy</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci ipsum explicabo illo quibusdam pariatur laudantium dolor hic porro, reprehenderit, voluptate 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./media/produtos/mermaid_parfum.jpg" alt="perfume Mermaid">
+                                        <h5 class="fw-bold mt-2">Perfume coleção Mermaid</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci ipsum explicabo illo quibusdam pariatur laudantium dolor hic porro, reprehenderit, voluptate 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./media/produtos/princess_parfum.jpg" alt="perfume Princess">
+                                        <h5 class="fw-bold mt-2">Perfume coleção Princess</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci ipsum explicabo illo quibusdam pariatur laudantium dolor hic porro, reprehenderit, voluptate 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./media/produtos/fairy_parfum.jpg" alt="perfume Fairy">
+                                        <h5 class="fw-bold mt-2">Perfume coleção Fairy</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci ipsum explicabo illo quibusdam pariatur laudantium dolor hic porro, reprehenderit, voluptate 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./media/produtos/mermaid_parfum.jpg" alt="perfume Mermaid">
+                                        <h5 class="fw-bold mt-2">Perfume coleção Mermaid</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci ipsum explicabo illo quibusdam pariatur laudantium dolor hic porro, reprehenderit, voluptate 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./media/produtos/princess_parfum.jpg" alt="perfume Princess">
+                                        <h5 class="fw-bold mt-2">Perfume coleção Princess</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci ipsum explicabo illo quibusdam pariatur laudantium dolor hic porro, reprehenderit, voluptate 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="hidratantes">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./media/produtos/fairy_cream.jpg" alt="Creme hidratante Fairy">
+                                        <h5 class="fw-bold mt-2">Creme hidratante coleção Fairy</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci ipsum explicabo illo quibusdam pariatur laudantium dolor hic porro, reprehenderit, voluptate 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./media/produtos/mermaid_cream.jpg" alt="Creme hidratante Mermaid">
+                                        <h5 class="fw-bold mt-2">Creme hidratante coleção Mermaid</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci ipsum explicabo illo quibusdam pariatur laudantium dolor hic porro, reprehenderit, voluptate 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./media/produtos/princess_cream.jpg" alt="Creme hidratante Princess">
+                                        <h5 class="fw-bold mt-2">Creme hidratante coleção Princess</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci ipsum explicabo illo quibusdam pariatur laudantium dolor hic porro, reprehenderit, voluptate 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./media/produtos/fairy_cream.jpg" alt="Creme hidratante Fairy">
+                                        <h5 class="fw-bold mt-2">Creme hidratante coleção Fairy</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci ipsum explicabo illo quibusdam pariatur laudantium dolor hic porro, reprehenderit, voluptate 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./media/produtos/mermaid_cream.jpg" alt="Creme hidratante Mermaid">
+                                        <h5 class="fw-bold mt-2">Creme hidratante coleção Mermaid</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci ipsum explicabo illo quibusdam pariatur laudantium dolor hic porro, reprehenderit, voluptate 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./media/produtos/princess_cream.jpg" alt="Creme hidratante Princess">
+                                        <h5 class="fw-bold mt-2">Creme hidratante coleção Princess</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci ipsum explicabo illo quibusdam pariatur laudantium dolor hic porro, reprehenderit, voluptate 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="bath-bombs">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./media/produtos/bath_bombs_fairy.jpg" alt="Bath-bomb Fairy">
+                                        <h5 class="fw-bold mt-2">Bath-bomb coleção Fairy</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci ipsum explicabo illo quibusdam pariatur laudantium dolor hic porro, reprehenderit, voluptate 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./media/produtos/barh_bombs_mermaid.jpg" alt="Bath-bomb Mermaid">
+                                        <h5 class="fw-bold mt-2">Bath-bomb coleção Mermaid</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci ipsum explicabo illo quibusdam pariatur laudantium dolor hic porro, reprehenderit, voluptate 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./media/produtos/bath_bombs_princess.jpg" alt="Bath-bomb Princess">
+                                        <h5 class="fw-bold mt-2">Bath-bomb coleção Princess</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci ipsum explicabo illo quibusdam pariatur laudantium dolor hic porro, reprehenderit, voluptate 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./media/produtos/bath_bombs_fairy.jpg" alt="Bath-bomb Fairy">
+                                        <h5 class="fw-bold mt-2">Bath-bomb coleção Fairy</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci ipsum explicabo illo quibusdam pariatur laudantium dolor hic porro, reprehenderit, voluptate 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./media/produtos/barh_bombs_mermaid.jpg" alt="Bath-bomb Mermaid">
+                                        <h5 class="fw-bold mt-2">Bath-bomb coleção Mermaid</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci ipsum explicabo illo quibusdam pariatur laudantium dolor hic porro, reprehenderit, voluptate 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./media/produtos/bath_bombs_princess.jpg" alt="Bath-bomb Princess">
+                                        <h5 class="fw-bold mt-2">Bath-bomb coleção Princess</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci ipsum explicabo illo quibusdam pariatur laudantium dolor hic porro, reprehenderit, voluptate 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="fale-conosco" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center">Fale<span class="text-colored"> Conosco</span></h2>
+            </div>
+            <div class="row">
+                <div class="col-md7 mb-5">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                            <input type="text" id="nome" name="nome" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefone" class="form-label fw-bold text-colored">Seu nome</label>
+                            <input type="tel" id="telefone" name="telefone" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label fw-bold text-colored">Seu nome</label>
+                            <textarea class="form-control" id="mensagem" name="mensagem" required></textarea>
+                        </div>
+                        <button type="submit" class="btn fw-bold">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-md5">
+                    <div class="row">
+                        <h3 class="section-title fs-4 text-colored">
+                            Redes sociais
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                        </h3>
+                        <ul class="social-links">
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-facebook text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-instagram text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-youtube text-colored"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
