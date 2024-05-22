@@ -15,28 +15,34 @@
 <body>
     <header class="navbar navbar-expand-lg sticky-top pt-4" id="cabecalho">
         <div class="container">
-            <h1 class="navbar-brand m-0 section-title">Fantasia</h1>
+            <h1 class="navbar-brand m-0 section-title fs-1">Fantasia</h1>
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <nav class="navbar-collapse collapse justify-content-end" id="menu">
                 <ul class="nav nac-pills d-block d-md-flex">
                     <li class="nav-item fw-bold">
-                        <a href="#" class="nav-link">
+                        <a href="#sobre-a-loja" class="nav-link">
                             <i class="bi bi-house-door-fill"></i>
                             Sobre
                         </a>
                     </li>
                     <li class="nav-item fw-bold">
-                        <a href="#" class="nav-link">
+                        <a href="#notas" class="nav-link">
                             <i class="bi bi-eyedropper"></i></i>
                             Notas
                         </a>
                     </li>
                     <li class="nav-item fw-bold">
-                        <a href="#" class="nav-link">
+                        <a href="#loja" class="nav-link">
                             <i class="bi bi-cart-fill"></i>
                             Loja
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-dots-fill"></i>
+                            Fale Conosco
                         </a>
                     </li>
                 </ul>
@@ -76,7 +82,7 @@
                         <img src="./media/sobre.jpg" class="d-block w-100 rounded" alt="foto do interior da loja de perfumes Fantasia">
                     </div>
                     <div class="col-md-7 mt-3 mt-md-0">
-                        <h2 class="section-title">Sobre <span class="text-colored">a loja</span> </h2>
+                        <h2 class="section-title fa-3">Sobre <sp2n class="text-colored">a loja</span> </h2>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quas blanditiis pariatur, culpa provident qui adipisci alias accusantium ab dicta consectetur obcaecati impedit, veritatis velit? Aliquid totam natus neque ullam.
                         </p>
@@ -97,7 +103,7 @@
     <section id="notas" class="pt-5 pb-5">
         <div class="container">
             <div class="row">
-                <h2 class="text-center section-title">Aromas que <span class=text-colored>inspiram</span> imaginação</h2>
+                <h2 class="text-center section-title fs-2">Aromas que <span class=text-colored>inspiram</span> imaginação</h2>
                 <div class="row mt-4">
                     <div class="col-md-4">
                         <img src="./media/notas/notas_fairy.jpg" class="d-clock w-100 rounded mb-2">
@@ -163,10 +169,10 @@
             </div>
         </div>
     </section>
-    <section class="pt-5 pb-5" id="loja">
+    <section id="loja" class="pt-5 pb-5">
         <div class="container">
             <div class="row">
-                <h2 class="section-title text-center mb-5">Escolha sua <span class="text-colored">fragancia</span></h2>
+                <h2 class="section-title text-center mb-2 fs-3">Escolha sua <span class="text-colored">fragancia</span></h2>
                 <div class="row">
                     <aside class="col-md-2">
                         <nav class="nav nav-pills flex-column nav-loja">
@@ -324,10 +330,10 @@
     <section id="fale-conosco" class="pt-5 pb-5">
         <div class="container">
             <div class="row">
-                <h2 class="section-title text-center">Fale<span class="text-colored"> Conosco</span></h2>
+                <h2 class="section-title text-center fs-2">Fale<span class="text-colored"> Conosco</span></h2>
             </div>
             <div class="row">
-                <div class="col-md7 mb-5">
+                <div class="col-md-7 mb-5">
                     <form>
                         <div class="mb-3">
                             <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
@@ -338,17 +344,17 @@
                             <input type="email" id="email" name="email" class="form-control" required>
                         </div>
                         <div class="mb-3">
-                            <label for="telefone" class="form-label fw-bold text-colored">Seu nome</label>
+                            <label for="telefone" class="form-label fw-bold text-colored">Seu Telefone</label>
                             <input type="tel" id="telefone" name="telefone" class="form-control" required>
                         </div>
                         <div class="mb-3">
-                            <label for="mensagem" class="form-label fw-bold text-colored">Seu nome</label>
+                            <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
                             <textarea class="form-control" id="mensagem" name="mensagem" required></textarea>
                         </div>
                         <button type="submit" class="btn fw-bold">Enviar</button>
                     </form>
                 </div>
-                <div class="col-md5">
+                <div class="col-md-5">
                     <div class="row">
                         <h3 class="section-title fs-4 text-colored">
                             Redes sociais
@@ -371,6 +377,15 @@
                                 </a>
                             </li>
                         </ul>
+                    </div>
+                    <div class="row mt-4">
+                        <h3 class="section-title fs-4 text-colored">
+                            Endereço
+                            <i class="bi bi-cursor-fill"></i>
+                        </h3>
+                        <p>
+                            Rua:Rua das flores nº321, Jardim - PR
+                        </p>
                     </div>
                 </div>
             </div>
