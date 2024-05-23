@@ -1,0 +1,72 @@
+body{
+    font-family: "Josefin Slab", serif;
+}
+
+.custom-carousel-image{
+    height: 37.5em;
+    object-fit: cover;
+}
+
+.navbar{
+    background: linear-gradient(to right, #f25fff, #c57bfe, #86a8e7, #91eac8);
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color: rgb(3, 34, 60);
+}
+
+#cabecalho .nav .nav-link,
+    .navbar-brand,
+    navbar-brand:hover,
+    .nav-cardapio .nav-link.active:hover{
+    color: #fff;
+    border-radius: 5px;
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+.section-title{
+    font-family: "Sacramento", cursive;
+}
+
+#sobre-o-restaurante, #cardapio{
+    background-color: #ffeae6;
+}
+
+.text-colored {
+    background: linear-gradient(to right, #e930fa, #a12cfa, #2873fd, #26faa9);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-clip: text;
+}
+
+.nav-loja .nav-link.active, #fale-conosco button, #loja .col-md-3 button {
+    background: linear-gradient(to right, #e930fa, #a12cfa, #2873fd, #26faa9);
+    color: #fff;
+}
+
+
+.nav-loja{
+    background: linear-gradient(to right, #e930fa, #a12cfa, #2873fd, #26faa9);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-clip: text;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img{
+        height: 280px;
+    }
+}
