@@ -44,7 +44,7 @@ body{
 }
 
 .nav-loja .nav-link.active, #fale-conosco button, #loja .col-md-3 button {
-    background: linear-gradient(to right, #e930fa, #a12cfa, #2873fd, #26faa9);
+    background: linear-gradient(to right,#f25fff, #c57bfe, #86a8e7, #91eac8);
     color: #fff;
 }
 
