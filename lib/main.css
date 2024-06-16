@@ -7,6 +7,14 @@ body{
     object-fit: cover;
 }
 
+.container h1{
+    cursor: default;
+}
+
+.container h1:hover{
+    color: #fff;
+}
+
 .navbar{
     background: linear-gradient(to right, #f25fff, #c57bfe, #86a8e7, #91eac8);
 }
