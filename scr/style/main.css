@@ -18,7 +18,7 @@ body{
 .navbar{
     background: linear-gradient(to right, #f25fff, #c57bfe, #86a8e7, #91eac8);
 }
-
+ 
 #cabecalho .nav .nav-link.active{
     background-color: #fff;
     color: rgb(3, 34, 60);
